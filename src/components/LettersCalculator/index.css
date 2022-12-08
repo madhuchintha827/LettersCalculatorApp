@@ -1,0 +1,126 @@
+/* Write your code here. */
+@media screen and (max-width: 767px) {
+  .bg-container {
+    background-color: #1d976c;
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+  }
+  .content-container {
+    order: 1;
+  }
+
+  .heading {
+    color: #93f9b9;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .input-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .enter-phrase {
+    color: #93f9b9;
+    font-family: 'Roboto';
+    font-size: 12px;
+  }
+
+  .input-element {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #93f9b9;
+    min-width: 150px;
+    max-width: 180px;
+    padding: 3px;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .no-of-letters-card {
+    background-color: #ffffff;
+    width: 160px;
+    height: 70px;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .no-of-letters {
+    color: #219a6f;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .clock-image {
+    min-width: 150px;
+    max-width: 350px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-color: #1d976c;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+  }
+  .heading {
+    color: #93f9b9;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .input-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .enter-phrase {
+    color: #93f9b9;
+    font-family: 'Roboto';
+    font-size: 15px;
+  }
+
+  .input-element {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #93f9b9;
+    min-width: 120px;
+    max-width: 160px;
+    padding: 3px;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .no-of-letters-card {
+    background-color: #ffffff;
+    width: 180px;
+    height: 70px;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .no-of-letters {
+    color: #219a6f;
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .clock-image {
+    min-width: 450px;
+    max-width: 550px;
+  }
+}
